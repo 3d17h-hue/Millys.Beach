@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu | Milly´s Beach</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #005f73;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            font-family: 'Georgia', serif;
+        }
+        header p {
+            font-size: 18px;
+            font-style: italic;
+        }
+        nav {
+            background-color: #008C9E;
+            text-align: center;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            color: #ffd700;
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+            margin: 30px 0;
+            background-color: rgb(220, 237, 230);
+            border-radius: 8px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #005f73;
+            width: 100%;
+        }
+        h3 {
+            font-size: larger;
+            margin-bottom: 20px;
+            text-align: center;
+            color: black;
+            width: 100%;
+        }
+        .menu-item {
+            width: 300px;
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+        .menu-item:hover {
+            background-color: #f0f0f0;
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .menu-item h3 {
+            font-size: 24px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .menu-item p {
+            font-size: 18px;
+            color: #005f73;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #005f73;
+            color: white;
+            text-align: center;
+            padding: 15px 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Milly´s Beach - Food Menu</h1>
+    <p>Delicious meals to satisfy your taste</p>
+</header>
+
+<!-- Navigation Links -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+</nav>
+
+<!-- Food Menu Section -->
+<section>
+    <h3>Our Food Menu</h3>
+
+    <!-- Local Dishes Section -->
+    <h2><b>Local Dishes</b></h2>
+    
+    <!-- Local Dishes Items -->
+    <div class="menu-item">
+        <h3>Banku with Tilapia</h3>
+        <img src="https://i.pinimg.com/originals/49/7a/16/497a168ee4f4fb298855d8bfc4cfa5ae.jpg" alt="Banku with Tilapia">
+        <p>100 cedis</p>
+    </div>
+    <div class="menu-item">
+        <h3>Banku with Okro</h3>
+        <img src="https://i.pinimg.com/originals/a1/a8/00/a1a8006c5c16d022315b360788d418da.jpg" alt="Banku with Okro">
+        <p>70 cedis</p>
+    </div>
+    <div class="menu-item">
+        <h3>Banku with Fried Fish and Shito</h3>
+        <img src="https://i.pinimg.com/originals/dc/ac/34/dcac348e4b6d584c64ff6ff63e06cd6b.jpg" alt="Banku with Fried Fish and Shito">
+        <p>70 cedis</p>
+    </div>
+    <div class="menu-item">
+        <h3>Fried Plantain with Beans</h3>
+        <img src="https://cdn.modernghana.com/images/content/422202223908-txobredq5l-gob3.jpg" alt="Fried Plantain with Beans">
+        <p>50 cedis</p>
+    </div>
+    <div class="menu-item">
+        <h3>Plantain with Palava Sauce</h3>
+        <img src="https://th.bing.com/th/id/OIP.WpiLpJ7P-yUvum8D81hO6QHaEn?rs=1&pid=ImgDetMain" alt="Plantain with Palava Sauce">
+        <p>70 cedis</p>
+    </div>
+    <div class="menu-item">
+        <h3>Rice Balls with Groundnut Soup</h3>
+        <img src="https://i.pinimg.com/736x/9c/e5/3b/9ce53bd7f7e4385e188236f9a979281d.jpg" alt="Rice Balls with Groundnut Soup">
+        <p>70 cedis</p>
+    </div>
+    <div class="menu-item">
+        <h3>Jollof Rice with Chicken or Fish</h3>
+        <img src="https://i.pinimg.com/736x/1d/c5/e0/1dc5e0b35bacad9f9d2c0b112324646f.jpg" alt="Jollof Rice with Chicken or Fish">
+        <p>80 cedis</p>
+    </div>
+    <div class="menu-item">
+        <h3>Kelewele with Groundnuts</h3>
+        <img src="https://cdn.ghanaweb.com/imagelib/pics/549/54984595.jpg" alt="Kelewele with Groundnuts">
+        <p>50 cedis</p>
+    </div>
+    <div class="menu-item">
+        <h3>Boiled Yam with Palava Sauce</h3>
+        <img src="https://ocdn.eu/pulscms-transforms/1/IgCk9kqTURBXy9mOTQyMWViNTZjMjJlMDU3YzNhODhkYzYyNmEzZDNiNS5qcGVnkZMFzQMUzQG8gaEwAQ" alt="Boiled Yam with Palava Sauce">
+        <p>70 cedis</p>
+    </div>
+    <div class="menu-item">
+        <h3>Fried Yam with Chicken or Fish</h3>
+        <img src="https://i.pinimg.com/736x/a9/00/61/a9006164b96716e25d3f8b81af939f41.jpg" alt="Fried Yam with Chicken or Fish">
+        <p>70 cedis</p>
+    </div>
+
+    <!-- Continental Dishes Section -->
+    <h2><b>Continental Dishes</b></h2>
+    
+    <!-- Continental Dishes Items -->
+    <div class="menu-item">
+        <h3>Prawn Sauce with Rice or Boiled Potatoes</h3>
+        <img src="https://www.recipetineats.com/tachyon/2020/09/Creamy-Garlic-Prawns_8.jpg?resize=900%2C1260&zoom=0.72" alt="Prawn Sauce with Rice or Boiled Potatoes">
+        <p>150 cedis</p>
+    </div>
+    <div class="menu-item">
+        <h3>Grilled Lobster with Potato Chips</h3>
+        <img src=" https://www.allrecipes.com/thmb/9JT9cfo8G-fLe-yILsXOHgbWowQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7617251-air-fryer-lobster-tails-with-lemon-garlic-butter-photo-by-allrecipes-cropped-07bb28adcec644e7950887e64fcc1c7e.jpg" alt="Grilled Lobster with Potato Chips">
+        <p> 150 cedis</p>
+        </div>
+        <div class="menu-item">
+            <div>
+                <h3>Beef Sauce with Plain Rice</h3>
+            </div>
+            <div>
+                <img src="https://sisijemimah.com/wp-content/uploads/2015/12/Shredded-Beef-In-Oyster-Sauce-2.jpg" alt="Beef Sauce with Plain Rice">
+            </div>
+            <div>100 cedis</div>
+        </div>
+        <div class="menu-item">
+            <div>
+                <h3>Fries with Chicken or Fish</h3>
+            </div>
+            <div>
+                <img src="https://thumbs.dreamstime.com/z/fried-chicken-plate-french-fries-ketchup-white-table-82327417.jpg" alt="Fries Potatoes with Chicken or Fish">
+            </div>
+            <div>80 cedis</div>
+        </div>
+        <div class="menu-item">
+            <div>
+              <h3>Fried Rice with Chicken</h3>
+            </div>
+            <div>
+                <img src=" https://th.bing.com/th/id/OIP.RfVI9SuTBNY6oWetN8uMXgHaFO?rs=1&pid=ImgDetMain" alt="Fried Rice with Chicken">
+            </div>
+            <div>70 cedis</div>
+        </div>
+        <div class="menu-item">
+            <div>
+                <h3>Spaghetti Bolognese</h3>
+            </div>
+            <div>
+                <img src="https://www.ericlyons.co.uk/wp-content/uploads/2021/06/8K0A7866-1600x1066.jpg" alt="Spaghetti Bolognese">
+            </div>
+            <div>70 cedis</div>
+        </div>
+        <div class="menu-item">
+            <div>
+                <h3>Shrimps Cocktail</h3>
+            </div>
+            <div>
+                <img src="https://www.recipetineats.com/tachyon/2016/12/Prawn-Cocktails-7.jpg?resize=1200%2C857&zoom=0.54" alt="Shrimps Cocktail">
+            </div>
+            <div>80 cedis</div>
+        </div>
+        <div class="menu-item">
+            <div>
+                <h3>Fish Fingers with Garlic Bread</h3>
+            </div>
+            <div>
+                <img src="https://static.wixstatic.com/media/155fdf_b4e77392862a4fc982f10ba4c169c04b~mv2.png/v1/fill/w_490,h_490,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/155fdf_b4e77392862a4fc982f10ba4c169c04b~mv2.png" alt="Fish Fingers with Garlic Bread">
+            </div>
+            <div>70 cedis</div>
+        </div>
+        <div class="menu-item">
+            <div>
+                <h3>Barbeque</h3>
+            </div>
+            <div>
+                <img src="https://img.freepik.com/premium-photo/barbeque_662214-2872.jpg" alt="Barbeque">
+            </div>
+        </div>
+    
